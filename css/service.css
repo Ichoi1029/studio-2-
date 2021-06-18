@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url(../css/reset.css);
+@import url(../css/responsive.css);
+@import url(../css/common.css);
+main{
+    text-align: center;
+}
+main h1 {
+    padding-top: 150px;
+}
+.second-log img{
+    width: 400px;
+    padding-top: 3rem;
+}
+.service-container{
+    text-align: center;
+    padding: 1rem;
+}
+.service-container .photo{
+    padding: 1rem;
+    padding-top: 2rem;
+}
+.service-container h2{
+    padding-left: 2rem;
+}
+.service-container .title {
+    width: 300px;
+    padding-top: 3rem;
+}
+.service-container .photo{
+    display: flex;
+    justify-content: center;
+}
+.service-container .photo .picture{
+    width: 30%;
+    height: auto;
+    padding: .5rem;
+}
+.service-container.photo.txt{
+    width: 100%;
+    height: auto;
+    /* padding-top: 1rem; */
+    background: red;
+}
+
+

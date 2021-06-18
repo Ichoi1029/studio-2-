@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url(../css/reset.css);
+@import url(../css/responsive.css);
+@import url(../css/common.css);
+body{
+    text-align: center;
+}
+.about{
+    display: flex;
+}
+.about-item{
+    width: 100%;
+}
+.about .main-img{
+    width: 70%;
+}
+.about .text{
+    width: 100%;
+}
+.about-drawing{
+    padding-top:100px;
+    max-width: 100%;
+    height:300px;
+    overflow: hidden; 
+    position: relative;
+}
+.about-drawing img{
+    width: 100%;
+    height: auto;
+}
+.about-container .brand {
+    width: 70%;
+}
+
+.process{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+.process li{
+    margin: 1rem;
+}
+.price-table{
+    max-width: 100%;
+    margin: 2rem;
+    text-align: center;
+}
+.rolling-banner{
+    text-align: center;
+    /* background: coral; */
+}
+.rolling-banner-Box{
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+.rolling-scroll img{
+    width: 1000px;
+    height: 200px;
+    padding-bottom: 100px;
+}
+.rolling-scroll{
+    width: 300%;
+    font-size: 0;
+    margin-left: 0;
+    animation: scroll 15s infinite ;
+}
+@keyframes scroll{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: -200%;
+    }
+}
